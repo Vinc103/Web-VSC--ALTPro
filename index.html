@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Parenting Guide - Protecting Kids from Gadget Addiction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='style.css' rel='stylesheet' />
+</head>
+<body>
+     <!-- Navigation -->
+     <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-child-reaching text-indigo-600 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-gray-900">ParentingDigital</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#home" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="#risks" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Risks</a>
+                    <a href="#solutions" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Solutions</a>
+                    <a href="#age-guide" class="text-gray-600 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Age Guide</a>
+                    <a href="#resources" class="text-gray-600 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Resources</a>
+                    <a href="HelpfulResource.html"><button class="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-150">
+                        Get Help Now
+                    </button>
+                </a>    
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-gray-900 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">Home</a>
+                <a href="#risks" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">Risks</a>
+                <a href="#solutions" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">Solutions</a>
+                <a href="#age-guide" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">Age Guide</a>
+                <a href="#resources" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">Resources</a>
+                <a href="HelpfulResource.html">
+                    <button class="w-full mt-2 bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-150">
+                    Get Help Now
+                </button>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+                        Is Your Child Addicted to Screens?
+                    </h1>
+                    <p class="text-xl mb-8 opacity-90">
+                        Learn how to protect your child from the dangers of early gadget addiction and foster healthy digital habits.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-150 shadow-lg">
+                            Take Our Assessment
+                        </button>
+                        <button class="bg-transparent border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-150">
+                            Watch Video <i class="fas fa-play-circle ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <img src="IMG/mainborder.jpg" 
+                             alt="Child using tablet" 
+                             class="rounded-xl shadow-2xl w-full max-w-md border-4 border-white">
+                        <!-- <img src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80" 
+                             alt="Child using tablet" 
+                             class="rounded-xl shadow-2xl w-full max-w-md border-4 border-white"> -->
+                        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
+                            <div class="flex items-center">
+                                <div class="bg-green-100 p-3 rounded-full mr-3">
+                                    <i class="fas fa-exclamation-triangle text-green-600 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-600">Warning Signs</p>
+                                    <p class="font-bold text-gray-900">Learn the 7 key indicators</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Alarming Statistics About Children and Gadgets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="stat-card bg-indigo-50 p-6 rounded-xl text-center">
+                    <div class="bg-indigo-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-clock text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold text-indigo-600 mb-2">6+</h3>
+                    <p class="text-gray-600">Hours per day children spend on screens</p>
+                </div>
+                <div class="stat-card bg-red-50 p-6 rounded-xl text-center">
+                    <div class="bg-red-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-brain text-red-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold text-red-600 mb-2">42%</h3>
+                    <p class="text-gray-600">Higher risk of attention problems with early exposure</p>
+                </div>
+                <div class="stat-card bg-green-50 p-6 rounded-xl text-center">
+                    <div class="bg-green-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-bed text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold text-green-600 mb-2">3x</h3>
+                    <p class="text-gray-600">More likely to have sleep disorders</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risks Section -->
+    <section id="risks" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">The Hidden Dangers of Early Gadget Addiction</h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
+                Excessive screen time in early childhood can have profound effects on development and long-term wellbeing.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-red-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-brain text-red-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Cognitive Development</h3>
+                            <p class="text-gray-600">
+                                Excessive screen time can delay language development, reduce attention spans, and impair executive function skills crucial for learning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-heart text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Physical Health</h3>
+                            <p class="text-gray-600">
+                                Linked to obesity, poor posture, vision problems, and reduced physical activity which impacts overall health and motor skill development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-smile text-yellow-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Emotional Wellbeing</h3>
+                            <p class="text-gray-600">
+                                Increased risk of anxiety, depression, emotional dysregulation, and difficulty forming real-world relationships.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex items-start mb-4">
+                        <div class="bg-purple-100 p-3 rounded-full mr-4">
+                            <i class="fas fa-users text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Social Skills</h3>
+                            <p class="text-gray-600">
+                                Reduced face-to-face interaction can hinder development of empathy, conflict resolution skills, and reading social cues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-indigo-50 rounded-xl p-8">
+                <div class="md:flex items-center">
+                    <div class="md:w-2/3 mb-6 md:mb-0">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Warning Signs Checklist</h3>
+                        <p class="text-gray-600 mb-4">Does your child exhibit these behaviors? Check all that apply:</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="flex items-center">
+                                <input type="checkbox" id="sign1" class="mr-3 h-5 w-5 text-indigo-600 rounded">
+                                <label for="sign1" class="text-gray-700">Tantrums when devices are taken away</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="sign2" class="mr-3 h-5 w-5 text-indigo-600 rounded">
+                                <label for="sign2" class="text-gray-700">Preferring screens over physical play</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="sign3" class="mr-3 h-5 w-5 text-indigo-600 rounded">
+                                <label for="sign3" class="text-gray-700">Difficulty focusing on non-screen activities</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="sign4" class="mr-3 h-5 w-5 text-indigo-600 rounded">
+                                <label for="sign4" class="text-gray-700">Using devices in secret</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="sign5" class="mr-3 h-5 w-5 text-indigo-600 rounded">
+                                <label for="sign5" class="text-gray-700">Neglecting schoolwork or chores</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input type="checkbox" id="sign6" class="mr-3 h-5 w-5 text-indigo-600 rounded">
+                                <label for="sign6" class="text-gray-700">Withdrawal from family activities</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/3 text-center">
+                        <div class="bg-white p-6 rounded-lg shadow-md inline-block">
+                            <div id="result-circle" class="w-32 h-32 rounded-full border-8 border-gray-200 flex items-center justify-center mx-auto mb-4">
+                                <span id="result-count" class="text-3xl font-bold text-indigo-600">0</span>
+                            </div>
+                            <p id="result-text" class="text-gray-700 font-medium">Check items that apply</p>
+                            <button id="calculate-btn" class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 transition duration-150">
+                                Calculate Risk
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">Practical Solutions for Parents</h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
+                It's never too late to establish healthy digital habits. Here are evidence-based strategies that work.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-clock text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Set Clear Limits</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Establish screen time rules (AAP recommends 1 hour/day for 2-5 year olds)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Use parental controls and timers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Create device-free zones (bedrooms, meals)</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-child text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Model Healthy Behavior</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Be mindful of your own screen use</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Engage in device-free family time</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Show alternative ways to relax and have fun</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <div class="bg-yellow-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-gamepad text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Quality Over Quantity</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Choose educational, interactive content</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Co-view and discuss content together</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2 animated-check"></i>
+                            <span>Avoid using screens as a digital pacifier</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-indigo-600 text-white rounded-xl p-8">
+                <div class="md:flex items-center">
+                    <div class="md:w-2/3 mb-6 md:mb-0">
+                        <h3 class="text-2xl font-bold mb-3">The 3 C's of Healthy Digital Parenting</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div>
+                                <div class="bg-indigo-700 w-16 h-16 rounded-full flex items-center justify-center mb-3">
+                                    <span class="text-2xl font-bold">1</span>
+                                </div>
+                                <h4 class="font-bold mb-2">Content</h4>
+                                <p class="text-indigo-100">Choose age-appropriate, educational material that aligns with your values.</p>
+                            </div>
+                            <div>
+                                <div class="bg-indigo-700 w-16 h-16 rounded-full flex items-center justify-center mb-3">
+                                    <span class="text-2xl font-bold">2</span>
+                                </div>
+                                <h4 class="font-bold mb-2">Context</h4>
+                                <p class="text-indigo-100">Consider when, where and how devices are used in your family's daily life.</p>
+                            </div>
+                            <div>
+                                <div class="bg-indigo-700 w-16 h-16 rounded-full flex items-center justify-center mb-3">
+                                    <span class="text-2xl font-bold">3</span>
+                                </div>
+                                <h4 class="font-bold mb-2">Child</h4>
+                                <p class="text-indigo-100">Tailor your approach based on your child's age, temperament and needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/3 text-center">
+                        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                             alt="Family playing together" 
+                             class="rounded-lg shadow-lg w-full max-w-xs mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Age Guide Section -->
+    <section id="age-guide" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">Age-Appropriate Guidelines</h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-8">
+                Recommendations vary by developmental stage. Hover over each age group for specific tips.
+            </p>
+
+            <div class="flex justify-center mb-8 border-b border-gray-200">
+                <div class="flex space-x-1">
+                    <button class="age-group-tab px-4 py-2 text-sm font-medium" data-age="0-2">0-2 Years</button>
+                    <button class="age-group-tab px-4 py-2 text-sm font-medium active" data-age="3-5">3-5 Years</button>
+                    <button class="age-group-tab px-4 py-2 text-sm font-medium" data-age="6-9">6-9 Years</button>
+                    <button class="age-group-tab px-4 py-2 text-sm font-medium" data-age="10-12">10-12 Years</button>
+                </div>
+            </div>
+
+            <div id="age-content" class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-indigo-600 text-white p-8">
+                        <h3 class="text-2xl font-bold mb-4">3-5 Years Old</h3>
+                        <div class="flex items-center mb-4">
+                            <div class="bg-indigo-700 p-3 rounded-full mr-4">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold">Recommended Screen Time</p>
+                                <p>1 hour per day (max)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center mb-4">
+                            <div class="bg-indigo-700 p-3 rounded-full mr-4">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold">Best Content</p>
+                                <p>Educational, slow-paced, interactive</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-indigo-700 p-3 rounded-full mr-4">
+                                <i class="fas fa-times-circle"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold">Avoid</p>
+                                <p>Fast-paced shows, solo device use</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <h4 class="text-xl font-bold text-gray-900 mb-4">Key Recommendations</h4>
+                        <ul class="space-y-4 text-gray-600">
+                            <li class="flex items-start">
+                                <div class="bg-green-100 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fas fa-check text-green-600 text-xs"></i>
+                                </div>
+                                <span>Co-view all content and discuss what you're watching together</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-green-100 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fas fa-check text-green-600 text-xs"></i>
+                                </div>
+                                <span>Choose high-quality educational programs like Sesame Street</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-green-100 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fas fa-check text-green-600 text-xs"></i>
+                                </div>
+                                <span>Avoid using devices during meals or before bedtime</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-green-100 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fas fa-check text-green-600 text-xs"></i>
+                                </div>
+                                <span>Encourage physical play and hands-on learning activities</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-green-100 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fas fa-check text-green-600 text-xs"></i>
+                                </div>
+                                <span>Establish consistent screen time routines</span>
+                            </li>
+                        </ul>
+                        <div class="mt-6 bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-exclamation-triangle text-yellow-600"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm text-yellow-700">
+                                        <span class="font-bold">Warning:</span> Children under 18 months should have no screen time except video chatting. For 18-24 months, choose high-quality programming and watch with them.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Success Stories From Parents Like You</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <!-- <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah J." class="w-12 h-12 rounded-full mr-4"> -->
+                          <img src="IMG/testimony1.png" alt="Sarah J." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Sarah J.</h4>
+                            <p class="text-gray-500 text-sm">Mother of 4-year-old</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"After implementing screen time limits, we saw dramatic improvements in our daughter's attention span and creativity within just 3 weeks!"</p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <!-- <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T." class="w-12 h-12 rounded-full mr-4"> -->
+                         <img src="IMG/testimony2.png" alt="Michael T." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Michael T.</h4>
+                            <p class="text-gray-500 text-sm">Father of twins, age 6</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"The age-specific guidelines helped us set realistic expectations. Our kids now look forward to device-free family game nights!"</p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <!-- <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Priya K." class="w-12 h-12 rounded-full mr-4"> -->
+                          <img src="IMG/testimony3.png" alt="Priya K." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Priya K.</h4>
+                            <p class="text-gray-500 text-sm">Mother of 8-year-old</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Learning about the risks motivated us to make changes. My son's teacher noticed better focus in class after we reduced his screen time."</p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">Helpful Resources</h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
+                Explore these tools and materials to support your digital parenting journey.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <a href="#" class="group">
+                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-150 h-full">
+                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4 group-hover:bg-blue-200 transition duration-150">
+                            <i class="fas fa-book text-blue-600"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Parent's Guide to Screen Time</h3>
+                        <p class="text-gray-600 text-sm">Comprehensive ebook with practical strategies</p>
+                    </div>
+                </a>
+                <a href="#" class="group">
+                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-150 h-full">
+                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mb-4 group-hover:bg-green-200 transition duration-150">
+                            <i class="fas fa-calendar-alt text-green-600"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Screen Time Planner</h3>
+                        <p class="text-gray-600 text-sm">Customizable weekly schedule templates</p>
+                    </div>
+                </a>
+                <a href="#" class="group">
+                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-150 h-full">
+                        <div class="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mb-4 group-hover:bg-purple-200 transition duration-150">
+                            <i class="fas fa-mobile-alt text-purple-600"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">App Recommendations</h3>
+                        <p class="text-gray-600 text-sm">Curated list of educational apps by age</p>
+                    </div>
+                </a>
+                <a href="#" class="group">
+                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-150 h-full">
+                        <div class="bg-red-100 w-12 h-12 rounded-full flex items-center justify-center mb-4 group-hover:bg-red-200 transition duration-150">
+                            <i class="fas fa-users text-red-600"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Support Community</h3>
+                        <p class="text-gray-600 text-sm">Connect with other parents facing similar challenges</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="bg-indigo-600 rounded-xl p-8 text-white">
+                <div class="md:flex items-center justify-between">
+                    <div class="md:w-2/3 mb-6 md:mb-0">
+                        <h3 class="text-2xl font-bold mb-3">Ready to Take Control of Your Family's Screen Time?</h3>
+                        <p class="mb-6">Join thousands of parents who have transformed their family's relationship with technology.</p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <button class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-150 shadow-lg">
+                                Get Started Today
+                            </button>
+                            <button class="bg-transparent border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-150">
+                                Free Consultation
+                            </button>
+                        </div>
+                    </div>
+                    <div class="md:w-1/3 text-center">
+                        <div class="bg-white text-indigo-600 p-4 rounded-lg inline-block">
+                            <div class="flex items-center justify-center">
+                                <i class="fas fa-phone-volume text-3xl mr-3"></i>
+                                <div>
+                                    <p class="text-sm">Call our support line</p>
+                                    <p class="text-xl font-bold">1-800-PARENTS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 text-left font-medium text-gray-900 bg-gray-50 hover:bg-gray-100 transition duration-150 flex justify-between items-center">
+                        <span>How much screen time is too much for my 4-year-old?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-answer px-6 py-4 bg-white hidden">
+                        <p class="text-gray-600">The American Academy of Pediatrics recommends no more than 1 hour per day of high-quality programming for children ages 2-5. For children under 18 months, screen time should be avoided altogether except for video chatting.</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 text-left font-medium text-gray-900 bg-gray-50 hover:bg-gray-100 transition duration-150 flex justify-between items-center">
+                        <span>What are some good alternatives to screen time?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-answer px-6 py-4 bg-white hidden">
+                        <p class="text-gray-600 mb-2">Great alternatives include:</p>
+                        <ul class="list-disc pl-5 space-y-1 text-gray-600">
+                            <li>Outdoor play and exploration</li>
+                            <li>Arts and crafts projects</li>
+                            <li>Board games and puzzles</li>
+                            <li>Reading physical books together</li>
+                            <li>Building with blocks or LEGO</li>
+                            <li>Pretend play and dress-up</li>
+                            <li>Cooking or baking together</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 text-left font-medium text-gray-900 bg-gray-50 hover:bg-gray-100 transition duration-150 flex justify-between items-center">
+                        <span>My child has tantrums when I take away devices. What should I do?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-answer px-6 py-4 bg-white hidden">
+                        <p class="text-gray-600">This is common when changing screen time habits. Try these strategies:</p>
+                        <ul class="list-disc pl-5 space-y-1 text-gray-600 mt-2">
+                            <li>Give clear warnings before transitions ("5 more minutes")</li>
+                            <li>Establish consistent routines around screen time</li>
+                            <li>Offer appealing alternatives when screen time ends</li>
+                            <li>Stay calm and don't give in to tantrums</li>
+                            <li>Use visual timers to help with transitions</li>
+                            <li>Praise your child when they handle the transition well</li>
+                        </ul>
+                        <p class="text-gray-600 mt-2">Consistency is key - it typically takes 2-3 weeks for new habits to form.</p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 text-left font-medium text-gray-900 bg-gray-50 hover:bg-gray-100 transition duration-150 flex justify-between items-center">
+                        <span>Are all screens equally harmful?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-answer px-6 py-4 bg-white hidden">
+                        <p class="text-gray-600">Not all screen time is equal. Passive consumption (like watching videos) is generally less beneficial than interactive, educational content. Video chatting with family can be positive even for young children. The key factors are:</p>
+                        <ul class="list-disc pl-5 space-y-1 text-gray-600 mt-2">
+                            <li><strong>Content quality:</strong> Educational, slow-paced, age-appropriate</li>
+                            <li><strong>Context:</strong> Co-viewing with caregivers is better than solo use</li>
+                            <li><strong>Timing:</strong> Avoid screens before bedtime or during meals</li>
+                            <li><strong>Balance:</strong> Screen time shouldn't replace physical activity, sleep, or social interaction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">ParentingDigital</h3>
+                    <p class="text-gray-400">Helping families build healthy relationships with technology since 2018.</p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-sm font-semibold uppercase tracking-wider mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Research</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Toolkits</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Webinars</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-semibold uppercase tracking-wider mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Consultations</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Parent Coaching</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-semibold uppercase tracking-wider mb-4">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">Get weekly tips and updates on digital parenting.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-md text-gray-900 w-full">
+                        <button class="bg-indigo-600 px-4 py-2 rounded-r-md hover:bg-indigo-700 transition duration-150">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8">
+                <div class="md:flex md:items-center md:justify-between">
+                    <div class="text-center md:text-left text-gray-400 text-sm mb-4 md:mb-0">
+                        &copy; 2023 ParentingDigital. All rights reserved.
+                    </div>
+                    <div class="flex justify-center md:justify-end space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
