@@ -38,3 +38,4 @@ This project aims to raise awareness and educate parents about the increasing th
 
 - Python (Data Analysis)
 - Matplotlib & Seaborn (Visualization)
+- Visual Studio Code (Website build)
