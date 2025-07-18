@@ -14,7 +14,6 @@ This project aims to raise awareness and educate parents about the increasing th
 
 ## 📌 Key Features
 
-- ✅ Literature review with citations from academic journals and recent studies.
 - ✅ Educational toolkit for parents (PDF guides, posters, and checklists).
 - ✅ Survey data analysis using Python for measuring awareness levels.
 - ✅ Interactive infographics and charts showing gadget usage trends.
